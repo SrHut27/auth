@@ -1,0 +1,23 @@
+{
+  "name": "express_session",
+  "version": "0.0.1",
+  "description": "A simple web that you can login and register",
+  "main": "app.js",
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git remote add origin https://github.com/SrHut27/auth.git"
+  },
+  "author": "SrHut27",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.3",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.18.0",
+    "nodemailer": "^6.9.11",
+    "mysql2": "^2.3.3"
+  }
+}
